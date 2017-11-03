@@ -39,6 +39,15 @@
     },
     "cordova-plugin-spinner-dialog": {
       "PACKAGE_NAME": "com.rajatncet.delhimetro"
+    },
+    "cordova-plugin-android-permissions": {
+      "PACKAGE_NAME": "com.rajatncet.delhimetro"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.rajatncet.delhimetro"
+    },
+    "cordova.plugins.diagnostic": {
+      "PACKAGE_NAME": "com.rajatncet.delhimetro"
     }
   },
   "dependent_plugins": {

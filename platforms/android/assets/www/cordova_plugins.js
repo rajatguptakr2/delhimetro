@@ -273,6 +273,30 @@ module.exports = [
     "merges": [
       "window.plugins.spinnerDialog"
     ]
+  },
+  {
+    "id": "cordova-plugin-android-permissions.Permissions",
+    "file": "plugins/cordova-plugin-android-permissions/www/permissions.js",
+    "pluginId": "cordova-plugin-android-permissions",
+    "clobbers": [
+      "cordova.plugins.permissions"
+    ]
+  },
+  {
+    "id": "cordova-plugin-device.device",
+    "file": "plugins/cordova-plugin-device/www/device.js",
+    "pluginId": "cordova-plugin-device",
+    "clobbers": [
+      "device"
+    ]
+  },
+  {
+    "id": "cordova.plugins.diagnostic.Diagnostic",
+    "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.js",
+    "pluginId": "cordova.plugins.diagnostic",
+    "clobbers": [
+      "cordova.plugins.diagnostic"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -289,7 +313,10 @@ module.exports.metadata =
   "cordova-plugin-touchid": "0.4.0",
   "cordova-plugin-statusbar": "2.2.3",
   "cordova-plugin-splashscreen": "4.0.3",
-  "cordova-plugin-spinner-dialog": "1.3.1"
+  "cordova-plugin-spinner-dialog": "1.3.1",
+  "cordova-plugin-android-permissions": "1.0.0",
+  "cordova-plugin-device": "1.1.6",
+  "cordova.plugins.diagnostic": "3.7.1"
 };
 // BOTTOM OF METADATA
 });

@@ -1,0 +1,69 @@
+{
+  "_from": "cordova-plugin-touchid",
+  "_id": "cordova-plugin-touchid@0.4.0",
+  "_inBundle": false,
+  "_integrity": "sha1-FlRVStTV4AeuJt86FkkwkReUbJQ=",
+  "_location": "/cordova-plugin-touchid",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-touchid",
+    "name": "cordova-plugin-touchid",
+    "escapedName": "cordova-plugin-touchid",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-touchid/-/cordova-plugin-touchid-0.4.0.tgz",
+  "_shasum": "1654554ad4d5e007ae26df3a1649309117946c94",
+  "_spec": "cordova-plugin-touchid",
+  "_where": "D:\\xampp\\htdocs\\metro\\DelhiMetro",
+  "author": {
+    "name": "Lee Crossley",
+    "email": "leee@hotmail.co.uk",
+    "url": "http://ilee.co.uk/"
+  },
+  "bugs": {
+    "url": "https://github.com/leecrossley/cordova-plugin-touchid/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-touchid",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Plugin to leverage the iOS local authentication framework to allow in-app user authentication using Touch ID.",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/leecrossley/cordova-plugin-touchid#readme",
+  "keywords": [
+    "cordova",
+    "touch id",
+    "touchid",
+    "authentication",
+    "fingerprint",
+    "id",
+    "login",
+    "passcode",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-touchid",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leecrossley/cordova-plugin-touchid.git"
+  },
+  "version": "0.4.0"
+}

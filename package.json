@@ -1,12 +1,46 @@
 {
-    "name": "com.rajatncet.delhimetro",
-    "displayName": "DelhiMetro",
-    "version": "1.0.0",
-    "description": "A sample Apache Cordova application that responds to the deviceready event.",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "com.rajatncet.delhimetro",
+  "displayName": "DelhiMetro",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-android": "^6.3.0",
+    "cordova-plugin-compat": "^1.2.0",
+    "cordova-plugin-file": "^4.3.3",
+    "cordova-plugin-file-transfer": "^1.6.3",
+    "cordova-plugin-geolocation": "^2.4.3",
+    "cordova-plugin-inappbrowser": "^1.7.1",
+    "cordova-plugin-spinner-dialog": "^1.3.1",
+    "cordova-plugin-splashscreen": "^4.0.3",
+    "cordova-plugin-statusbar": "^2.2.3",
+    "cordova-plugin-touchid": "^0.4.0",
+    "cordova-plugin-vibration": "^2.1.5",
+    "cordova-plugin-whitelist": "^1.3.2",
+    "cordova-plugin-x-toast": "^2.6.0",
+    "cordova-sqlite-storage": "^2.0.4"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-sqlite-storage": {},
+      "cordova-plugin-file-transfer": {},
+      "cordova-plugin-geolocation": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-vibration": {},
+      "cordova-plugin-x-toast": {},
+      "cordova-plugin-touchid": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-spinner-dialog": {}
     },
-    "author": "Apache Cordova Team",
-    "license": "Apache-2.0"
+    "platforms": [
+      "android"
+    ]
+  }
 }

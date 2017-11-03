@@ -1,0 +1,49 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.rajatncet.delhimetro"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "com.rajatncet.delhimetro"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.rajatncet.delhimetro"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.rajatncet.delhimetro"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.rajatncet.delhimetro"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "com.rajatncet.delhimetro"
+    },
+    "cordova-plugin-x-toast": {
+      "PACKAGE_NAME": "com.rajatncet.delhimetro"
+    },
+    "cordova-plugin-touchid": {
+      "PACKAGE_NAME": "com.rajatncet.delhimetro"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.rajatncet.delhimetro"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.rajatncet.delhimetro"
+    },
+    "cordova-plugin-spinner-dialog": {
+      "PACKAGE_NAME": "com.rajatncet.delhimetro"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.rajatncet.delhimetro"
+    }
+  }
+}

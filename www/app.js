@@ -1,9 +1,7 @@
 var app_url = 'http://projects.tekshapers.in/watchit/webservices/';
-//var app_url = 'http://localhost/watchit/webservices/';
 var api_key = '0ed2e4b57d1f837276553b00d3fc2a29';
-
 var storage = window.localStorage;
-
+var APP_NAME = "WatchIt";
 var app = angular.module("myApp", ['ngRoute', 'ngSanitize', 'ngCookies', 'slickCarousel', 'ngSidebarJS', 'ngCordova', 'com.2fdevs.videogular', 'com.2fdevs.videogular.plugins.controls', 'com.2fdevs.videogular.plugins.overlayplay', 'com.2fdevs.videogular.plugins.poster', 'com.2fdevs.videogular.plugins.buffering', 'infinite-scroll', 'ngCordovaOauth', 'ngCordova']);
 //app.constant("CSRF_TOKEN", '40d3dfd36e217abcade403b73789d732');         //{!! csrf_token() !!}
 
@@ -14,7 +12,9 @@ app.run(['$rootScope', '$location', '$routeParams', function ($rootScope, $locat
     $rootScope.$on('$routeChangeSuccess', function (e, current, pre) {
         currentUrl = $location.path();
 
+
     });
+    $rootScope.APP_NAME = APP_NAME;
 
 
 }]);

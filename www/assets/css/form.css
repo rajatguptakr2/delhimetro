@@ -66,12 +66,12 @@ input:focus ~ .bar:before {
 table; z-index:99999999;}
 .loading {
   position: absolute;
-  background-color: #393635;
+  background-color: #1a83b300;
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  border: 2px solid #b70034;
-  background-image:url(../images/loading-icon.png);
+  border: 15px solid #193ed2;
+  /* background-image:url(../images/loading-icon.png); */
   background-repeat:no-repeat;
   left: 0;
   right: 0;

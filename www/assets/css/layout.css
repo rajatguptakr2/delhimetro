@@ -19,7 +19,7 @@ src: url('../fonts/Myriad Pro Regular.ttf');
 }
 
 
-body {margin:0;background:#191818;color: #dfe2e4;font-family:'Myriad Pro Regular';padding:50px 0 10px 0; overflow-x:hidden;}
+body {margin:0;background:#516cdab0;color: #dfe2e4;font-family:'Myriad Pro Regular';padding:50px 0 10px 0; overflow-x:hidden;}
 em{color:#ff0000;}
 *, :after, :before { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
 .img-responsive, .img-thumbnail, .table, label { max-width:100% }
